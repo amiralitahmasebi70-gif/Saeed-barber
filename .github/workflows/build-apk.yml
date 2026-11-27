@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q BARBER_SAEED_ready_for_github.zip -d project
+        run: unzip -q BARBER_SAEED_ready_for_github_FIXED.zip -d project
 
       - name: Setup Java
         uses: actions/setup-java@v4
